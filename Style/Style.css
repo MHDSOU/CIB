@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  border: 1px magenta solid;
+  display: flex;
+  width: 80rem;
+  height: 100rem;
+}
+
+.containerOne {
+  border: 1px red solid;
+  width: 30%;
+}
+
+.containerTwo {
+  border: 1px blue solid;
+  width: 70%;
+}

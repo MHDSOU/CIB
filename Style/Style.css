@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .main-container {
@@ -19,11 +25,83 @@
 }
 
 .containerOne {
-  border: 1px red solid;
-  width: 30%;
+  width: 32.5%;
+}
+
+#img-content img {
+  width: 26rem;
+  height: 46.9rem;
 }
 
 .containerTwo {
+  width: 67.5%;
+}
+
+#info-container {
+  display: flex;
   border: 1px blue solid;
-  width: 70%;
+  width: 25rem;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 25rem;
+  margin-top: 15rem;
+}
+
+#cardholder-content {
+  display: flex;
+  flex-direction: column;
+  width: 16.5rem;
+  padding-left: 1rem;
+}
+
+#cardnumber-content {
+  display: flex;
+  flex-direction: column;
+  width: 16.5rem;
+  padding-left: 1rem;
+}
+
+#date-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+#all-info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#date-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#cvc-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#cvc-contain {
+  display: flex;
+  padding-left: 0.5rem;
+  width: 6.8rem;
+  height: 2rem;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15.75rem;
+  height: 2rem;
+  margin-top: 2rem;
 }

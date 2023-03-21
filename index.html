@@ -19,8 +19,96 @@
   <body>
     <div class="main-container">
       <div class="card-container">
-        <div class="containerOne"></div>
-        <div class="containerTwo"></div>
+        <div class="containerOne">
+          <div id="img-content">
+            <img src="./images/bg-main-desktop.png" alt="" />
+          </div>
+        </div>
+        <div class="containerTwo">
+          <div id="info-container">
+            <div id="cardholder-content">
+              <label
+                for="nameinput"
+                style="font-size: 0.8rem; color: black; letter-spacing: 2px;"
+              >
+                CARDHOLDER NAME
+              </label>
+              <input
+                type="text"
+                name="name"
+                style="width: 16.25rem; height: 2rem; padding-left: 0.5rem;"
+                id="name-content"
+                placeholder="e.g. jane Appleseed"
+                required
+              />
+            </div>
+            <div id="cardnumber-content">
+              <label
+                for="numberinput"
+                style="font-size: 0.8rem; color: black; letter-spacing: 2px;"
+              >
+                CARD NUMBER
+              </label>
+              <input
+                type="number"
+                name="number"
+                style="width: 16.25rem; height: 2rem; padding-left: 0.5rem;"
+                id="number-content"
+                placeholder="e.g. 1234 5678 9123 0000"
+                required
+              />
+            </div>
+            <div id="date-content">
+              <label
+                for="numberinput"
+                style="font-size: 0.8rem; color: black; letter-spacing: 2px;"
+              >
+                Exp. Date (MM/YY)
+              </label>
+              <div id="all-info-content">
+                <div id="date-date">
+                  <input
+                    type="number"
+                    name="number"
+                    style="width: 2.95rem; height: 2rem; padding-left: 0.5rem;"
+                    id="month-content"
+                    placeholder="MM"
+                    required
+                  />
+                  <input
+                    type="number"
+                    name="number"
+                    style="width: 2.95rem; height: 2rem; padding-left: 0.5rem;"
+                    id="year-content"
+                    placeholder="YY"
+                    required
+                  />
+                </div>
+                <div id="cvc-content">
+                  <label
+                    for="numberinput"
+                    style="
+                      font-size: 0.8rem;
+                      color: black;
+                      letter-spacing: 2px;
+                    "
+                  >
+                    CVC
+                  </label>
+                  <input
+                    type="number"
+                    name="number"
+                    style="width: 6.9rem; height: 2rem;"
+                    id="cvc-contain"
+                    placeholder="e.g. 123"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <button id="button-container">Confirm</button>
+          </div>
+        </div>
       </div>
     </div>
 
